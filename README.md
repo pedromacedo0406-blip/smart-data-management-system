@@ -1,34 +1,64 @@
-#  Intelligent Data Management and KPI Analysis System
+# Smart Data Management System
 
-##  Overview
+##  Sobre o Projeto
 
-This project is a backend system developed using Python and Flask to manage and analyze business indicators (KPIs).
+O Smart Data Management System é uma API REST desenvolvida para gerenciamento e análise de indicadores estratégicos.  
+O sistema permite cadastrar, listar e gerar métricas consolidadas para suporte à tomada de decisão.
 
-It demonstrates REST API development, database modeling, and structured backend architecture.
+Este projeto demonstra habilidades em:
 
----
-
-##  Features
-
-- Create indicators
-- List indicators
-- Dashboard with aggregated metrics
-- SQLite database integration
-- RESTful API structure
+- Arquitetura de sistemas
+- Desenvolvimento Backend
+- Modelagem de dados
+- Construção de APIs REST
+- Organização de código em padrão profissional
 
 ---
 
-##  Technologies
+##  Tecnologias Utilizadas
 
 - Python
 - Flask
 - SQLAlchemy
 - SQLite
+- Arquitetura em camadas
+- Padrão Factory
 
 ---
 
-##  How to Run
+##  Estrutura do Projeto
 
-```bash
-pip install -r requirements.txt
-python run.py
+```
+smart-data-management-system/
+│
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── extensions.py
+│
+├── config.py
+├── run.py
+├── requirements.txt
+```
+
+---
+
+##  Funcionalidades
+
+- Cadastro de indicadores
+- Listagem de indicadores
+- Dashboard consolidado com soma e quantidade
+- Persistência em banco de dados
+
+---
+
+##  Objetivo Profissional
+
+Este projeto foi desenvolvido como demonstração prática de competências em Análise e Desenvolvimento de Sistemas, com foco em backend, organização estrutural e boas práticas de desenvolvimento.
+
+---
+
+## 👨‍💻 Autor
+
+Pedro Henrique Macedo
